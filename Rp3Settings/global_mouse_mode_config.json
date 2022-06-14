@@ -1,0 +1,104 @@
+{
+  "alpha": 1.0,
+  "builtIn": true,
+  "createdTime": 1,
+  "descriptions": {
+    "default": "Mouse mode.\nLeft joystick: move the pointer.\nRight joystick: mouse wheel.\nA/B/X: Click/Back/middle mouse button.\nL1/R1: back/forward button.",
+    "zh_CN": "鼠标模式。\n左摇杆：指针移动。\n右摇杆：滑动屏幕。\nA/B/X：点击/返回/任务栏。\nL1/R1：后退键/前进键。",
+    "zh": "鼠标模式。\n左搖杆：指針移動。\n右搖杆：滑动屏幕。\nA/B/X：点击/返回/任务栏。\nL1/R1：後退鍵/前進鍵。"
+  },
+  "downloadCount": 0,
+  "id": "gamepadtomouse",
+  "joystickConfigs": [
+    {
+      "duration": 0,
+      "followTouchIndicatorPosition": false,
+      "minEffectiveRadiusPercentage": 0.0,
+      "mouseMode": 2,
+      "reverseJoystick": false,
+      "speed": 0,
+      "hideFromUi": true,
+      "name": "LEFT_JOYSTICK",
+      "sensitivity": 500050,
+      "touchCenter": 50007500,
+      "touchRadius": 1500,
+      "type": 3001
+    },
+    {
+      "duration": 0,
+      "followTouchIndicatorPosition": false,
+      "minEffectiveRadiusPercentage": 0.0,
+      "mouseMode": 0,
+      "reverseJoystick": false,
+      "speed": 0,
+      "hideFromUi": true,
+      "name": "RIGHT_JOYSTICK",
+      "sensitivity": 1000100,
+      "touchCenter": 25005000,
+      "touchRadius": 1500,
+      "type": 3003
+    }
+  ],
+  "keyConfigs": [
+    {
+      "duration": 300,
+      "exclusiveJoystick": false,
+      "followTouchIndicatorPosition": true,
+      "minEffectiveRadiusPercentage": 0.0,
+      "reverseJoystick": false,
+      "speed": 0,
+      "targetCode": 0,
+      "width": 1500,
+      "hideFromUi": true,
+      "name": "A",
+      "sensitivity": 1000100,
+      "touchCenter": 42003800,
+      "touchRadius": 850,
+      "type": 3015
+    },
+    {
+      "duration": 300,
+      "exclusiveJoystick": false,
+      "followTouchIndicatorPosition": true,
+      "minEffectiveRadiusPercentage": 0.0,
+      "reverseJoystick": false,
+      "speed": 0,
+      "targetCode": 4,
+      "width": 1500,
+      "hideFromUi": true,
+      "name": "B",
+      "sensitivity": 1000100,
+      "touchCenter": 0,
+      "touchRadius": 850,
+      "type": 2001
+    },
+    {
+      "duration": 300,
+      "exclusiveJoystick": false,
+      "followTouchIndicatorPosition": true,
+      "minEffectiveRadiusPercentage": 0.0,
+      "reverseJoystick": false,
+      "speed": 0,
+      "targetCode": 187,
+      "width": 1500,
+      "hideFromUi": true,
+      "name": "X",
+      "sensitivity": 1000100,
+      "touchCenter": 0,
+      "touchRadius": 850,
+      "type": 2001
+    }
+  ],
+  "lastModifiedTime": 1,
+  "macroConfigs": [],
+  "mouseConfigs": [],
+  "readOnly": true,
+  "titles": {
+    "default": "Mouse",
+    "zh_CN": "鼠标",
+    "zh": "滑鼠"
+  },
+  "toolbarLocation": 0,
+  "type": 0,
+  "version": 0
+}
