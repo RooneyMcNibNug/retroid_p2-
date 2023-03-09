@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BKP_path="/home/$USER/Documents/Retroid_Pocket_Backups"
+BKP_path="/home/$USER/Documents/Retroid_Pocket_Backups_$(date +%Y-%m-%d)"
 RP_path=$(ls /run/$USER/1000/gvfs | grep 'Retroid')
 SD_path=$(ls /run/$USER/1000/gvfs/$RP_path)
 
